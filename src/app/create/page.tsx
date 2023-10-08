@@ -31,6 +31,7 @@ export default function Create() {
             .then((data: { id: number }) => {
               const lastId = data.id;
 
+              router.refresh();
               router.push(`/read/${lastId}`);
             });
         }}
