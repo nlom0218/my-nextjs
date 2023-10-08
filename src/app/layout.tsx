@@ -26,7 +26,7 @@ export default async function RootLayout({
           {topics.map((topic) => {
             return (
               <li key={topic.id}>
-                <Link href={`read/${topic.id}`}>html</Link>
+                <Link href={`/read/${topic.id}`}>{topic.title}</Link>
               </li>
             );
           })}

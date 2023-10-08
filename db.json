@@ -1,23 +1,14 @@
 {
   "topics": [
-    { "id": 1, "title": "html", "body": "html is ..." },
-    { "id": 2, "title": "css", "body": "css is ..." }
-  ],
-  "posts": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "title": "html",
+      "body": "html is ..."
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "title": "css",
+      "body": "css is ..."
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
